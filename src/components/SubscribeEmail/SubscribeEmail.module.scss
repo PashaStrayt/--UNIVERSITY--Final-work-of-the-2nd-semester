@@ -1,0 +1,9 @@
+.root {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 20px;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
+}

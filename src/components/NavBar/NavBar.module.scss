@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 1 63%;
+  max-width: 750px;
+  max-height: 72px;
+
+  @media (max-width: 900px) {
+    align-self: center;
+    min-width: 500px;
+    max-height: 172px;
+  }
+
+  @media (max-width: 600px) {
+    flex-flow: column nowrap;
+    min-width: 191px;
+  }
+}

@@ -1,0 +1,96 @@
+{"works": [
+  {
+    "title": "Сайт аудиоплеер",
+    "body": "Front-End и Back-End, подключенная база данных",
+    "category": "Скрипты",
+    "preview": "https://i.imgur.com/0sG9cT8.png"
+  },
+  {
+    "title": "Сайт дневник",
+    "body": "Front-End реализация на ReactJS. Посты сохраняются в LocalStorage",
+    "category": "Скрипты",
+    "preview": "https://i.imgur.com/Etyv83p.png",
+    "images": [
+      "https://i.imgur.com/UYhPqCC.png",
+      "https://i.imgur.com/uupenV2.png"
+    ]
+  },
+  {
+    "title": "Интерактивная презентация",
+    "body": "Презентация всех моих интерактивных плакатов",
+    "category": "Интерактивные плакаты",
+    "preview": "https://i.imgur.com/BpEhGDy.png",
+    "images": [
+      "https://i.imgur.com/Ld8JGeJ.png",
+      "https://i.imgur.com/EYDXwM5.png",
+      "https://i.imgur.com/xETPIuO.png",
+      "https://i.imgur.com/EQcoAqH.png"
+    ]
+  },
+  {
+    "title": "Агитационные посты",
+    "body": "Дизайн агитационных постов для Instagram",
+    "category": "Разное",
+    "preview": "https://i.imgur.com/ZOFAu5B.png",
+    "images": [
+      "https://i.imgur.com/pIxSbHs.png",
+      "https://i.imgur.com/zWtFIjl.png",
+      "https://i.imgur.com/AlctYOt.png"
+    ]
+  },
+  {
+    "title": "Alivio",
+    "body": "Верстка макета в Figma",
+    "category": "Верстка",
+    "preview": "https://i.imgur.com/mKBmP69.png",
+    "images": [
+      "https://i.imgur.com/ohYT7AH.png",
+      "https://i.imgur.com/IqK3wGI.png",
+      "https://i.imgur.com/SaD4FbA.png",
+      "https://i.imgur.com/DYbeMYu.png"
+    ]
+  },
+  {
+    "title": "Интерактивная киноафиша",
+    "body": "Реклама фильма в интерактивном виде",
+    "category": "Интерактивные плакаты",
+    "preview": "https://i.imgur.com/V0mSZiX.png",
+    "images": [
+      "https://i.imgur.com/FyeF3Vj.png",
+      "https://i.imgur.com/6uFbxzs.png",
+      "https://i.imgur.com/MGbXBGs.png",
+      "https://i.imgur.com/uiaWkyl.png"
+    ]
+  },
+  {
+    "title": "Интерактивный спортивный плакат",
+    "body": "Презентация всех моих интерактивных плакатов",
+    "category": "Интерактивные плакаты",
+    "preview": "https://i.imgur.com/R0HZ8UD.png",
+    "images": [
+      "https://i.imgur.com/kSTiuOJ.png",
+      "https://i.imgur.com/yKj1iKf.png",
+      "https://i.imgur.com/nDjZGC3.png",
+      "https://i.imgur.com/O6Pj2hD.png",
+      "https://i.imgur.com/nP1dn6p.png"
+    ]
+  },
+  {
+    "title": "Cortin",
+    "body": "Верстка адаптивного макета для всех устройств",
+    "category": "Верстка",
+    "preview": "https://i.imgur.com/mCQ2tkz.png",
+    "images": [
+      "https://i.imgur.com/FDfhdQ3.png",
+      "https://i.imgur.com/FFzTyfb.png",
+      "https://i.imgur.com/6vyIRLp.png",
+      "https://i.imgur.com/4xt1YL1.png",
+      "https://i.imgur.com/8KUDXY6.png",
+      "https://i.imgur.com/XPKfpzK.png",
+      "https://i.imgur.com/uP4P66P.png",
+      "https://i.imgur.com/62uPPa3.png",
+      "https://i.imgur.com/4qqyV3q.png"
+    ]
+  }
+]
+}

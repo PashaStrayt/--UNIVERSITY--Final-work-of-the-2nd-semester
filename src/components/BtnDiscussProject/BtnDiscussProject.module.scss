@@ -1,0 +1,26 @@
+.root {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0.011em;
+  color: #232323;
+  background: #F8CB73;
+  border-radius: 8px;
+  padding: 20px 60px;
+  max-width: 304px;
+  max-height: 67px;
+  align-self: flex-end;
+  transition-duration: 0.6s;
+
+  &:hover {
+    background: #f6bf50;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 18px;
+    padding: 12px 70px;
+    max-width: 300px;
+    max-height: 48px;
+  }
+}

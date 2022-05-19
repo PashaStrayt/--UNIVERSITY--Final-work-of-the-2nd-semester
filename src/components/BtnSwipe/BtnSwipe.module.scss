@@ -1,0 +1,19 @@
+.root {
+  width: 104px;
+  background: none;
+  transition-duration: .6s;
+  
+  img {
+    max-width: 24.1px;
+    max-height: 44px;
+    
+  }
+
+  &:hover {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+}
+}

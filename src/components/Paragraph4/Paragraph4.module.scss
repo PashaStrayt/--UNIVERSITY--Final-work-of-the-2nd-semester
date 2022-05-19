@@ -1,0 +1,13 @@
+.root {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #232323;
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
+}

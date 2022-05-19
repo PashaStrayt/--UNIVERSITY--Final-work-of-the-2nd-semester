@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 42px;
+  padding: 40px 29px;
+  max-width: 273px;
+  background: #FCCD9C;
+  border-radius: 18px;
+
+  @media (max-width: 600px) {
+    row-gap: 9px;
+    padding: 26px 29px;
+  }
+
+  &__imgBlock {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 22px;
+
+    @media (max-width: 1200px) {
+      column-gap: 14px;
+    }
+
+    @media (max-width: 600px) {
+      column-gap: 20px;
+    }
+
+    img {
+      max-width: 91px;
+
+      @media (max-width: 1200px) {
+        max-width: 61px;
+      }
+    }
+  }
+}

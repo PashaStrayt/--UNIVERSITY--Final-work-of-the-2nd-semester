@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  padding: 170px calc(30px + (100 - 30) * ((100vw - 360px) / (1200 - 360)));
+  background: #F9DEBC;
+
+  @media (max-width: 600px) {
+    padding: 80px calc(30px + (100 - 30) * ((100vw - 360px) / (1200 - 360)));
+  }
+}
+
+.Title5 {
+  margin-bottom: 64px;
+
+  @media (max-width: 600px) {
+    margin-bottom: 42px;
+  }
+}

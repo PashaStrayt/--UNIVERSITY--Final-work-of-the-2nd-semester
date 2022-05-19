@@ -1,0 +1,53 @@
+.root {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 30px;
+  width: 100%;
+  padding: 60px calc(30px + (100 - 30) * ((100vw - 600px) / (1200 - 600)));
+  background: #EDD99F;
+
+  @media (max-width: 600px) {
+    gap: 0;
+    row-gap: 45px;
+  }
+}
+
+.LogoLinkAndSubscribeEmail {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 10%;
+}
+
+.LogoLink {
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  row-gap: 20px;
+
+  @media (max-width: 600px) {
+    align-items: center;
+  }
+}
+
+.SocialLinksAndNavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 30px;
+  width: 100%;
+
+  @media (max-width: 600px) {
+    flex-flow: column nowrap;
+    column-gap: 0;
+    row-gap: 30px;
+  }
+}
+
+.NavBar {
+  min-width: 300px;
+
+  @media (max-width: 600px) {
+    order: -1;
+    max-height: 1000px;
+    row-gap: 15px;
+  }
+}

@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 40px;
+
+  @media (max-width: 600px) {
+    gap: 0;
+    row-gap: 30px;
+  }
+}

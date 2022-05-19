@@ -1,0 +1,36 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  column-gap: 6%;
+  width: 100%;
+  padding: 170px calc(30px + (100 - 30) * ((100vw - 360px) / (1200 - 360)));
+  background: #F9DEBC;
+  text-align: left;
+
+  @media (max-width: 1000px) {
+    flex-flow: column nowrap;
+    align-items: center;
+    row-gap: 21px;
+    padding: 80px calc(30px + (100 - 30) * ((100vw - 360px) / (1200 - 360)));
+    text-align: center;
+  }
+  
+  &__avatar {
+    flex: 1 1 31.25%;
+    max-width: 375px;
+
+    @media (max-width: 600px) {
+      flex: 1 1 65%;
+      max-width: 232px;
+    }
+  }
+
+  &__Title5 {
+    margin: 29px 0 45px 0;
+
+    @media (max-width: 600px) {
+     margin: 9px 0 40px 0;
+    }
+  }
+}

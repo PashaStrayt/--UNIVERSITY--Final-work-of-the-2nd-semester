@@ -1,0 +1,145 @@
+$width: 1200px;
+$height: 676px;
+
+.root {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.window {
+  width: $width;
+  height: $height;
+  background-color: #F6F3E4;
+  border-radius: 20px;
+  overflow: hidden;
+
+  @media (max-width: 1300px) {
+    width: 700px;
+    height: 394px;
+  }
+
+  @media (max-width: 900px) {
+    width: 500px;
+    height: 282px;
+  }
+
+  @media (max-width: 600px) {
+    width: 300px;
+    height: 170px;
+  }
+}
+
+.btnsBlock {
+  position: relative;
+  top: -676px;
+  width: $width;
+  height: $height;
+
+  @media (max-width: 1300px) {
+    width: 700px;
+    height: 394px;
+    top: -394px;
+  }
+
+  @media (max-width: 900px) {
+    width: 500px;
+    height: 282px;
+    top: -282px;
+  }
+
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.btnsBlock__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: $height;
+
+  @media (max-width: 1300px) {
+    height: 394px;
+  }
+
+  @media (max-width: 900px) {
+    height: 282px;
+  }
+
+  @media (max-width: 600px) {
+    height: 170px;
+  }
+}
+
+.imagesBlock {
+  position: relative;
+  left: 0px;
+  display: flex;
+  height: $height;
+  transition-duration: 0.6s;
+
+  @media (max-width: 1300px) {
+    height: 394px;
+  }
+
+  @media (max-width: 900px) {
+    height: 282px;
+  }
+
+  @media (max-width: 600px) {
+    height: 170px;
+  }
+}
+
+.imageBlock {
+  width: $width;
+  height: $height;
+
+  @media (max-width: 1300px) {
+    width: 700px;
+    height: 394px;
+  }
+
+  @media (max-width: 900px) {
+    width: 500px;
+    height: 282px;
+  }
+
+  @media (max-width: 600px) {
+    width: 300px;
+    height: 170px;
+  }
+}
+
+.img {
+  width: $width;
+  height: $height;
+  object-fit: contain;
+
+  @media (max-width: 1300px) {
+    width: 700px;
+    height: 394px;
+  }
+
+  @media (max-width: 900px) {
+    width: 500px;
+    height: 282px;
+  }
+
+  @media (max-width: 600px) {
+    width: 300px;
+    height: 170px;
+  }
+}
+
+.dotsBlock {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+
+  @media (max-width: 600px) {
+    column-gap: 4px;
+  }
+}

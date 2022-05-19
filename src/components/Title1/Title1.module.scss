@@ -1,0 +1,13 @@
+.root {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 63px;
+  letter-spacing: -0.5px;
+  color: #606060;
+
+  @media (max-width: 600px) {
+    font-size: 33px;
+    line-height: 37px;
+  }
+}
